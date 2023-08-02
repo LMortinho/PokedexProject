@@ -12,7 +12,7 @@
 
 body {
     text-align: center;
-    background: linear-gradient(to bottom, #6ab7f5, #fff);
+    background-image: url(../images/background1.png);
     min-height: 100vh;
 }
 
@@ -58,6 +58,10 @@ main {
     top: 65%;
     left: 13.5%;
 
+}
+
+.input_search {
+    text-align: center;
 }
 
 .input_search {
