@@ -66,11 +66,13 @@ buttonShiny.addEventListener('click', async () => {
 
         pokemonImage.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
         shiny = false;
+        buttonShiny.style.color = '';
     } else {
         const data = await fetchPokemon(searchPokemon);
 
         pokemonImage.src = data['sprites']['versions']['generation-v']['black-white']['animated']['front_shiny'];
         shiny = true;
+        buttonShiny.style.color = 'gold';
     }  
 });
 
